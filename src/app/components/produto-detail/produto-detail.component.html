@@ -1,0 +1,15 @@
+<div>
+    <h1>{{ produto.title}}</h1>
+    <p>{{ produto.description }}</p>
+    <p>Preço: {{ produto.price}}</p>
+    
+    <div >
+        <h2>Imagens do Produto</h2>
+        <div class="imagens-produto">
+        <img [src]="produto.image" />
+        </div>
+    </div>
+    <div>
+        <h2>Categoria</h2>
+        <p>{{ produto.category }}</p>
+</div>

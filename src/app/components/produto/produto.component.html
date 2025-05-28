@@ -1,0 +1,8 @@
+<div class="produto-container">
+  <h1 class="produto-title">{{ title }}</h1>
+  <img [src]="img" alt="{{ title }}" class="produto-image">
+  <p class="produto-description">{{ description }}</p>
+  <p class="produto-category">Categoria: {{ category }}</p>
+  <p class="produto-price">Preço: R$ {{ price}}</p>
+  <button (click)="viewDetails(id)" class="btn btn-primary">View Details</button>
+</div>
